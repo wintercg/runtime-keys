@@ -18,22 +18,22 @@ spec:html; type:attribute; for:Window; text:self
 Introduction {#intro}
 =====================
 
-This proposal defines a list of keys that represent various runtime environments. These keys can be used in a variety of ways, and should be considered a reliable representation of the given runtime. For example, they may be used in a project configuration file to indicate the given project supports the specified runtime.
+This proposal defines a list of keys that represent various runtime environments. These keys can be used in a variety of ways, and should be considered a reliable representation of the given runtime. For example, they may be used in a project configuration file to indicate the given project supports the specified runtime. This specification does not detail <i>how</i> the keys can be used; that is left up to community developed tools. The point of this proposal is too only define <i>what</i> the keys are in order to prevent conflicts and give users a reliable list of platforms they can build tooling around.
 
 Keys {#keys}
 ============
 
-## Node.js ## {#node}
+## Cloudlfare - workerd ## {#workerd}
 
-Node.js is an open-source, cross-platform JavaScript runtime environment.
+The JavaScript / Wasm runtime that powers Cloudflare Workers.
 
-Key: `node`
+Key: `workerd`
 
-Website: [https://nodejs.org](https://nodejs.org)
+Website: [https://workers.cloudflare.com/](https://workers.cloudflare.com/)
 
-Repository: [https://github.com/nodejs/node](https://github.com/nodejs/node)
+Repository: [https://github.com/cloudflare/workerd](https://github.com/cloudflare/workerd)
 
-## Deno ## {#deno}
+## Deno Land - Deno ## {#deno}
 
 A modern runtime for JavaScript and TypeScript.
 
@@ -43,27 +43,37 @@ Website: [https://deno.com](https://deno.com)
 
 Repository: [https://github.com/denoland/deno](https://github.com/denoland/deno)
 
-## Vercel Edge Runtime ## {#edge}
+## Meta - React Native ## {#react-native}
 
-Developing, testing, and defining the runtime Web APIs for Edge infrastructure.
+Create native apps for Android and iOS using React.
 
-Key: `edge`
+Key: `react-native`
 
-Website: [https://edge-runtime.vercel.app/](https://edge-runtime.vercel.app/)
+Website: [https://reactnative.dev/](https://reactnative.dev/)
 
-Repository: [https://github.com/vercel/edge-runtime](https://github.com/vercel/edge-runtime)
+Repository: [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
 
-## Cloudlfare Workerd ## {#workerd}
+## OpenJS Foundation - Electron ## {#electron}
 
-The JavaScript / Wasm runtime that powers Cloudflare Workers 
+Build cross-platform desktop apps with JavaScript, HTML, and CSS.
 
-Key: `workerd`
+Key: `electron`
 
-Website: [https://workers.cloudflare.com/](https://workers.cloudflare.com/)
+Website: [https://www.electronjs.org/](https://www.electronjs.org/)
 
-Repository: [https://github.com/cloudflare/workerd](https://github.com/cloudflare/workerd)
+Repository: [https://github.com/electron/electron](https://github.com/electron/electron)
 
-## Oven.sh Bun ## {#bun}
+## OpenJS Foundation - Node.js ## {#node}
+
+Node.js is an open-source, cross-platform JavaScript runtime environment.
+
+Key: `node`
+
+Website: [https://nodejs.org](https://nodejs.org)
+
+Repository: [https://github.com/nodejs/node](https://github.com/nodejs/node)
+
+## Oven - Bun ## {#bun}
 
 Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 
@@ -73,15 +83,26 @@ Website: [https://bun.sh/](https://bun.sh/)
 
 Repository: [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 
+## Vercel - Edge Runtime ## {#edge}
+
+Developing, testing, and defining the runtime Web APIs for Edge infrastructure.
+
+Key: `edge`
+
+Website: [https://edge-runtime.vercel.app/](https://edge-runtime.vercel.app/)
+
+Repository: [https://github.com/vercel/edge-runtime](https://github.com/vercel/edge-runtime)
+
 <!-- 
 ## <Runtime Name> ## {#<Runtime Key>}
+
+<Runtime Description>
 
 Key: `<Runtime Key>`
 
 Website: [<Runtime Website>](<Runtime Website>)
 
 Repository: [<Runtime Repository>](<Runtime Repository>)
-
 -->
 
 Key Management {#key-management}
@@ -89,18 +110,39 @@ Key Management {#key-management}
 
 ## Adding a key ## {#adding-a-key}
 
-The process for adding a key to this list is:
+All JavaScript runtimes are welcome to create a key and add it to this list. New keys must not conflict with another existing key. Runtime entries on this list are encouraged, but not required, to participate in the community group.
 
-1. 
+To propose a new key, create a pull request in [proposal-runtime-keys](https://github.com/wintercg/proposal-runtime-keys) repository that adds the desired key to the `index.bs` file using the following format:
+
+```md
+## <Runtime Organization> - <Runtime Name> ## {#<Runtime Key>}
+
+<Runtime Description>
+
+Key: \`<Runtime Key>\`
+
+Website: [<Runtime Website>](<Runtime Website>)
+
+Repository: [<Runtime Repository>](<Runtime Repository>)
+```
+
+The key should be inserted in alphabetical order based on the first character of the Runtime Organization
+
+Keys should meaningfully represent the relative runtime and be a simple, string-like value so it can be used in common configuration formats such as JSON and YAML.
+
+Entry pull requests must be approved by at least two active members of the community group that are not directly affiliated with the proposed runtime.
 
 ## Modifying a key ## {#modifying-a-key}
 
-The process for modifying a key to this list is:
+Modifying an entry requires opening a pull request and recieving two approvals from active community group members not affiliated with the relative runtime project.
 
-1. 
+Modifications can be made to aspects such as the Organization, Name, Description, Website, and Repository. Aside from extraordinary circumstances, to prevent breaking tools built around this list, <b>Keys are not modifiable</b>. Keys may be deprecated to indicate inactive runtime projects.
 
-## Remove a key ## {#remove-a-key}
+Deprecated Keys may be undeprecated and claimed by another runtime.
 
-The process for removing a key to this list is:
+To deprecate or undeprecate a key, open a pull request adding or removing `<b>[Deprecated]</b>` from the Name:
 
-1. 
+```diff
++ ## <b>[Deprecated]</b> <Runtime Organization> - <Runtime Name> ## {#<Runtime Key>}
+- ## <Runtime Organization> - <Runtime Name> ## {#<Runtime Key>}
+```
