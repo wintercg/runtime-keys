@@ -53,6 +53,16 @@ Website: [https://reactnative.dev/](https://reactnative.dev/)
 
 Repository: [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
 
+## Netlify - Edge Functions ## {#}
+
+Edge Functions connect the Netlify platform and workflow with an open runtime standard at the network edge.
+
+Key: `TODO: <key>`
+
+Website: [https://docs.netlify.com/edge-functions/overview/](https://docs.netlify.com/edge-functions/overview/)
+
+Repository: [https://github.com/netlify/edge-functions](https://github.com/netlify/edge-functions)
+
 ## OpenJS Foundation - Electron ## {#electron}
 
 Build cross-platform desktop apps with JavaScript, HTML, and CSS.
