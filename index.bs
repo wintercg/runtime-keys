@@ -23,7 +23,7 @@ This proposal defines a list of keys that represent various runtime environments
 Keys {#keys}
 ============
 
-## Cloudlfare - workerd ## {#workerd}
+## Cloudflare - workerd ## {#workerd}
 
 The JavaScript / Wasm runtime that powers Cloudflare Workers.
 
