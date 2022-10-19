@@ -112,7 +112,7 @@ Key Management {#key-management}
 
 All JavaScript runtimes are welcome to create a key and add it to this list. New keys must not conflict with another existing key. Runtime entries on this list are encouraged, but not required, to participate in the community group.
 
-To propose a new key, create a pull request in [proposal-runtime-keys](https://github.com/wintercg/proposal-runtime-keys) repository that adds the desired key to the `index.bs` file using the following format:
+To propose a new key, create a pull request in [runtime-keys](https://github.com/wintercg/runtime-keys) repository that adds the desired key to the `index.bs` file using the following format:
 
 ```md
 ## <Runtime Organization> - <Runtime Name> ## {#<Runtime Key>}
