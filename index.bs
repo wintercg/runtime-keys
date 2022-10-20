@@ -25,7 +25,7 @@ Keys {#keys}
 
 ## Cloudflare - workerd ## {#workerd}
 
-The JavaScript / Wasm runtime that powers Cloudflare Workers.
+The JavaScript / WebAssembly runtime that powers Cloudflare Workers.
 
 Key: `workerd`
 
