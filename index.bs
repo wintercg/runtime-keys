@@ -103,7 +103,7 @@ Website: [https://edge-runtime.vercel.app/](https://edge-runtime.vercel.app/)
 
 Repository: [https://github.com/vercel/edge-runtime](https://github.com/vercel/edge-runtime)
 
-<!-- 
+<!--
 ## <Runtime Name> ## {#<Runtime Key>}
 
 <Runtime Description>
@@ -136,9 +136,11 @@ Website: [<Runtime Website>](<Runtime Website>)
 Repository: [<Runtime Repository>](<Runtime Repository>)
 ```
 
-The key should be inserted in alphabetical order based on the first character of the Runtime Organization
+The key should be inserted in alphabetical order based on the first character of the Runtime Organization.
 
 Keys should meaningfully represent the relative runtime and be a simple, string-like value so it can be used in common configuration formats such as JSON and YAML.
+
+Keys should also not conflict with existing [Browserlist entries](https://github.com/browserslist/browserslist#browsers).
 
 Entry pull requests must be approved by at least two active members of the community group that are not directly affiliated with the proposed runtime.
 
