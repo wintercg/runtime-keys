@@ -43,9 +43,9 @@ Website: [https://deno.com](https://deno.com)
 
 Repository: [https://github.com/denoland/deno](https://github.com/denoland/deno)
 
-## Meta - React Native ## {#react-native}
+## React Native ## {#react-native}
 
-Create native apps for Android and iOS using React.
+A framework for building native apps using React. This key represents supported React Native JS runtimes on native platforms (excludes react-native-web).
 
 Key: `react-native`
 
