@@ -160,7 +160,11 @@ Entry pull requests must be approved by at least two active members of the commu
 
 Modifying an entry requires opening a pull request and recieving two approvals from active community group members not affiliated with the relative runtime project.
 
-Modifications can be made to aspects such as the Organization, Name, Description, Website, and Repository. Aside from extraordinary circumstances, to prevent breaking tools built around this list, <b>Keys are not modifiable</b>. Keys may be deprecated to indicate inactive runtime projects.
+Modifications can be made to aspects such as the Organization, Name, Description, Website, and Repository.
+
+Aside from extraordinary circumstances, to prevent breaking tools built around this list, <b>Keys are not modifiable</b>.
+
+Keys may be deprecated to indicate inactive runtime projects.
 
 Deprecated Keys may be undeprecated and claimed by another runtime.
 
