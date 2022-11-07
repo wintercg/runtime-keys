@@ -18,7 +18,19 @@ spec:html; type:attribute; for:Window; text:self
 Introduction {#intro}
 =====================
 
-This proposal defines a list of keys that represent various runtime environments. These keys can be used in a variety of ways, and should be considered a reliable representation of the given runtime. For example, they may be used in a project configuration file to indicate the given project supports the specified runtime. This specification does not detail <i>how</i> the keys can be used; that is left up to community developed tools. The point of this proposal is too only define <i>what</i> the keys are in order to prevent conflicts and give users a reliable list of platforms they can build tooling around.
+This proposal defines a list of keys that represent various runtime environments.
+
+These keys can be used in a variety of ways, and should be considered a reliable representation of the given runtime.
+
+For example, they may be used in a project configuration file to indicate the given project supports the specified runtime.
+
+This specification does not detail <i>how</i> the keys can be used; that is left up to community developed tools.
+
+The point of this proposal is to only define <i>what</i> the keys are in order to prevent conflicts, and provide users a reliable list of platforms they can build tooling around.
+
+Inclusion in this registry does not imply that the specified runtime is conformant with the WinterCG [Minimum Common API](https://proposal-common-min-api.deno.dev/).
+
+Inclusing in this registry does not imply endorsement of any kind.
 
 Keys {#keys}
 ============
@@ -57,7 +69,7 @@ Repository: [https://github.com/facebook/react-native](https://github.com/facebo
 
 Edge Functions connect the Netlify platform and workflow with an open runtime standard at the network edge.
 
-Key: `TODO: <key>`
+Key: `netlify`
 
 Website: [https://docs.netlify.com/edge-functions/overview/](https://docs.netlify.com/edge-functions/overview/)
 
@@ -97,7 +109,7 @@ Repository: [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 
 Developing, testing, and defining the runtime Web APIs for Edge infrastructure.
 
-Key: `edge`
+Key: `edge-runtime`
 
 Website: [https://edge-runtime.vercel.app/](https://edge-runtime.vercel.app/)
 
