@@ -55,7 +55,7 @@ Website: [https://deno.com](https://deno.com)
 
 Repository: [https://github.com/denoland/deno](https://github.com/denoland/deno)
 
-## React Native ## {#react-native}
+## Meta - React Native ## {#react-native}
 
 A framework for building native apps using React. This key represents supported React Native JS runtimes on native platforms (excludes react-native-web).
 
@@ -65,7 +65,7 @@ Website: [https://reactnative.dev/](https://reactnative.dev/)
 
 Repository: [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
 
-## Netlify - Edge Functions ## {#}
+## Netlify - Edge Functions ## {#netlify}
 
 Edge Functions connect the Netlify platform and workflow with an open runtime standard at the network edge.
 
@@ -105,7 +105,7 @@ Website: [https://bun.sh/](https://bun.sh/)
 
 Repository: [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 
-## Vercel - Edge Runtime ## {#edge}
+## Vercel - Edge Runtime ## {#edge-runtime}
 
 Developing, testing, and defining the runtime Web APIs for Edge infrastructure.
 
