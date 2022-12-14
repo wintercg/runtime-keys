@@ -32,7 +32,7 @@ Inclusion in this registry does not imply that the specified runtime is conforma
 
 Inclusing in this registry does not imply endorsement of any kind.
 
-## Example Usage ## {#example-usage}ß
+## Example Usage ## {#example-usage}
 
 One example of how these keys <i>may</i> be used (remember, this proposal <strong>does not specify</strong> <i>how</i> the keys are to be used) is within `package.json` files for projects hosted on npm.
 
