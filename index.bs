@@ -32,8 +32,37 @@ Inclusion in this registry does not imply that the specified runtime is conforma
 
 Inclusing in this registry does not imply endorsement of any kind.
 
+## Example Usage ## {#example-usage}ß
+
+One example of how these keys <i>may</i> be used (remember, this proposal <strong>does not specify</strong> <i>how</i> the keys are to be used) is within `package.json` files for projects hosted on npm.
+
+The following `package.json` file demonstrates a library that exports seperate outputs for Node.js and Deno, as well as specifies which versions of each runtime it supports.
+
+```json
+{
+    "name": "the-library",
+    "version": "1.0.0",
+    "exports": {
+        "node": "./dist/node/index.js",
+        "deno": "./dist/deno/index.js"
+    },
+    "engines": {
+        "node": ">=16",
+        "deno": ">=1.10"
+    }
+}
+```
+
 Keys {#keys}
 ============
+
+## Alibaba Cloud - edge-routine ## {#edge-routine}
+
+The JavaScript/Webassembly runtime that powers Alibaba Cloud edge-routine.
+
+Key: `edge-routine`
+
+Website: [https://www.alibabacloud.com/help/en/dynamic-route-for-cdn/latest/er-overview](https://www.alibabacloud.com/help/en/dynamic-route-for-cdn/latest/er-overview)
 
 ## Cloudflare - workerd ## {#workerd}
 
@@ -105,11 +134,11 @@ Website: [https://bun.sh/](https://bun.sh/)
 
 Repository: [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 
-## Vercel - Edge Runtime ## {#edge-runtime}
+## Vercel - Edge Light ## {#edge-light}
 
 Developing, testing, and defining the runtime Web APIs for Edge infrastructure.
 
-Key: `edge-runtime`
+Key: `edge-light`
 
 Website: [https://edge-runtime.vercel.app/](https://edge-runtime.vercel.app/)
 
