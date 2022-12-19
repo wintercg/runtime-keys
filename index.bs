@@ -84,6 +84,16 @@ Website: [https://deno.com](https://deno.com)
 
 Repository: [https://github.com/denoland/deno](https://github.com/denoland/deno)
 
+## Lagon - Lagon Runtime ## {#lagon}
+
+Lagon is an open-source runtime and platform that allows developers to run TypeScript and JavaScript Functions at the Edge.
+
+Key: `lagon`
+
+Website: [https://lagon.app](https://lagon.app)
+
+Repository: [https://github.com/lagonapp/lagon](https://github.com/lagonapp/lagon)
+
 ## Meta - React Native ## {#react-native}
 
 A framework for building native apps using React. This key represents supported React Native JS runtimes on native platforms (excludes react-native-web).
