@@ -144,6 +144,16 @@ Website: [https://bun.sh/](https://bun.sh/)
 
 Repository: [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 
+## Socket Supply Co. - Socket Runtime ## {#socket}
+
+A Cross-Platform Runtime for building native Desktop and Mobile Apps using HTML, CSS, and JavaScript. Written from the ground up to be small and maintainable.
+
+Key: `socket`
+
+Website: [https://sockets.sh/](https://sockets.sh/)
+
+Repository: [https://github.com/socketsupply/socket](https://github.com/socketsupply/socket)
+
 ## Vercel - Edge Light ## {#edge-light}
 
 Developing, testing, and defining the runtime Web APIs for Edge infrastructure.
