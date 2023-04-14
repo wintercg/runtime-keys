@@ -36,7 +36,7 @@ Inclusing in this registry does not imply endorsement of any kind.
 
 One example of how these keys <i>may</i> be used (remember, this proposal <strong>does not specify</strong> <i>how</i> the keys are to be used) is within `package.json` files for projects hosted on npm.
 
-The following `package.json` file demonstrates a library that exports seperate outputs for Node.js and Deno, as well as specifies which versions of each runtime it supports.
+The following `package.json` file demonstrates a library that exports separate outputs for Node.js and Deno, as well as specifies which versions of each runtime it supports.
 
 ```json
 {
