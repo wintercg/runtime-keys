@@ -154,6 +154,16 @@ Website: [https://edge-runtime.vercel.app/](https://edge-runtime.vercel.app/)
 
 Repository: [https://github.com/vercel/edge-runtime](https://github.com/vercel/edge-runtime)
 
+## Fastly - JavaScript on Compute@Edge
+
+JavaScript runtime for Fastly Compute@Edge.
+
+Key: `fastly`
+
+Website: [https://developer.fastly.com/learning/compute/javascript/](https://developer.fastly.com/learning/compute/javascript/)
+
+Repository: [https://github.com/fastly/js-compute-runtime](https://github.com/fastly/js-compute-runtime)
+
 <!--
 ## <Runtime Name> ## {#<Runtime Key>}
 
