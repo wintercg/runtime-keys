@@ -104,6 +104,16 @@ Website: [https://reactnative.dev/](https://reactnative.dev/)
 
 Repository: [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
 
+## Moddable - Moddable SDK ## {#moddable}
+
+Open source runtime for resource-constrained embedded devices using standard JavaScript and TypeScript. Supports standard ECMA-419 APIs.
+
+Key: `moddable`
+
+Website: [https://www.moddable.com/](https://www.moddable.com/)
+
+Repository: [https://github.com/Moddable-OpenSource/moddable](https://github.com/Moddable-OpenSource/moddable)
+
 ## Netlify - Edge Functions ## {#netlify}
 
 Edge Functions connect the Netlify platform and workflow with an open runtime standard at the network edge.
