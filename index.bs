@@ -154,6 +154,17 @@ Website: [https://bun.sh/](https://bun.sh/)
 
 Repository: [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 
+## React - Server Components ## {#react-server}
+
+Used by React Server Components.
+
+Key: `react-server`
+
+Website: [https://react.dev/](https://react.dev/)
+
+Repository: [https://github.com/facebook/react](https://github.com/facebook/react)
+
+
 ## Vercel - Edge Light ## {#edge-light}
 
 Developing, testing, and defining the runtime Web APIs for Edge infrastructure.
