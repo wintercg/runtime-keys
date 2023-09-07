@@ -154,7 +154,7 @@ Website: [https://edge-runtime.vercel.app/](https://edge-runtime.vercel.app/)
 
 Repository: [https://github.com/vercel/edge-runtime](https://github.com/vercel/edge-runtime)
 
-## Fastly - JavaScript on Compute@Edge
+## Fastly - JavaScript on Compute@Edge ## {#fastly}
 
 JavaScript runtime for Fastly Compute@Edge.
 
