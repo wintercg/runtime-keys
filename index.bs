@@ -193,7 +193,7 @@ Key: `wasmer`
 
 Website: [https://wasmer.io/products/edge](https://wasmer.io/products/edge)
 
-Repository: [https://github.com/wasmerio/wasmer-winter](https://github.com/wasmerio/wasmer-winter)
+Repository: [https://github.com/wasmerio/winterjs](https://github.com/wasmerio/winterjs)
 
 
 <!--
