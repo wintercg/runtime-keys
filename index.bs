@@ -185,6 +185,16 @@ Website: [https://developer.fastly.com/learning/compute/javascript/](https://dev
 
 Repository: [https://github.com/fastly/js-compute-runtime](https://github.com/fastly/js-compute-runtime)
 
+## Kiesel ## {#kiesel}
+
+A JavaScript engine and runtime written in Zig.
+
+Key: `kiesel`
+
+Website: [https://kiesel.dev/](https://kiesel.dev/)
+
+Repository: [https://codeberg.org/kiesel-js/runtime](https://codeberg.org/kiesel-js/runtime)
+
 <!--
 ## <Runtime Name> ## {#<Runtime Key>}
 
