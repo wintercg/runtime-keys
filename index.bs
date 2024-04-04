@@ -195,6 +195,16 @@ Website: [https://kiesel.dev/](https://kiesel.dev/)
 
 Repository: [https://codeberg.org/kiesel-js/runtime](https://codeberg.org/kiesel-js/runtime)
 
+## Wasmer Edge ## {#wasmer}
+
+The JavaScript runtime that brings JavaScript to Wasmer Edge.
+
+Key: `wasmer`
+
+Website: [https://wasmer.io/products/edge](https://wasmer.io/products/edge)
+
+Repository: [https://github.com/wasmerio/winterjs](https://github.com/wasmerio/winterjs)
+
 <!--
 ## <Runtime Name> ## {#<Runtime Key>}
 
