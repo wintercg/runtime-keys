@@ -64,6 +64,14 @@ Key: `edge-routine`
 
 Website: [https://www.alibabacloud.com/help/en/dynamic-route-for-cdn/latest/er-overview](https://www.alibabacloud.com/help/en/dynamic-route-for-cdn/latest/er-overview)
 
+## Azion - Edge Functions ## {#azion}
+
+Azion Edge Functions for ultra-low latency, edge-native applications, built with open standards for secure, high-performance serverless computing.
+
+Key: `azion`
+
+Website: [https://www.azion.com/en/products/edge-functions/](https://www.azion.com/en/products/edge-functions/)
+
 ## Cloudflare - workerd ## {#workerd}
 
 The JavaScript / WebAssembly runtime that powers Cloudflare Workers.
