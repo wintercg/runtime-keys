@@ -5,7 +5,7 @@ Level: 1
 Status: w3c/CG-DRAFT
 Group: wintercg
 URL: http://runtime-keys.proposal.wintercg.org
-Editor: Ethan Arrowood, Vercel http://vercel.com, ethan-arrowood@vercel.com
+Editor: Ethan Arrowood, ethan@arrowood.dev
 Abstract: A proposal defining standard identifier keys for various runtime environments
 Markup Shorthands: markdown yes
 </pre>
