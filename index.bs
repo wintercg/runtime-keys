@@ -162,6 +162,16 @@ Website: [https://bun.sh/](https://bun.sh/)
 
 Repository: [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 
+## Distributive - PythonMonkey ## {#pythonmonkey}
+
+Mozilla JS engine embedded into a Python host environment with cross-platform datatypes and event loop.
+
+Key: `pythonmonkey`
+
+Website: [https://pythonmonkey.io](https://pythonmonkey.io)
+
+Repository: [https://github.com/Distributive-Network/PythonMonkey](https://github.com/Distributive-Network/PythonMonkey)
+
 ## React - Server Components ## {#react-server}
 
 Used by React Server Components.
