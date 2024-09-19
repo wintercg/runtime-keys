@@ -164,7 +164,7 @@ Repository: [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 
 ## Distributive - PythonMonkey ## {#pythonmonkey}
 
-Mozilla JS engine embedded into a Python host enviornment with cross-platform datatypes and event loop.
+Mozilla JS engine embedded into a Python host environment with cross-platform datatypes and event loop.
 
 Key: pythonmonkey
 
