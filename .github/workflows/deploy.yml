@@ -24,11 +24,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Create `out` dir
-        run: |
-          mkdir -p out
-          mv out.html out/index.html
-
       - name: Upload `out` to Deno Deploy
         uses: denoland/deployctl@v1
         with:
