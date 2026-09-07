@@ -141,6 +141,15 @@
       "deprecated": false
     },
     {
+      "organization": "Nub",
+      "name": "Nub",
+      "key": "nub",
+      "description": "A TypeScript-first CLI that runs a project's own Node.js installation, augmented through Node's extension surfaces. Code selected by this key runs on Node.js and can import TypeScript and JSX sources directly.",
+      "website": "https://nubjs.com",
+      "repository": "https://github.com/nubjs/nub",
+      "deprecated": false
+    },
+    {
       "organization": "Fabrice Bellard",
       "name": "QuickJS",
       "key": "quickjs",
